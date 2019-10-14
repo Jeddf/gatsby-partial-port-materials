@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header,
+main {
+  margin: 1rem;
+  max-width: 1200px;
+  min-width: 960px;
+}
+
+.brand-color {
+  color: forestgreen;
+}
+
+header,
+nav ul {
+  display: flex;
+}
+
+header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul,
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 1rem;
+}
+
+.bio-card {
+  display: flex;
+  align-items: center;
+}
