@@ -23,18 +23,19 @@ const Nav = () => (
 
 const Header = () => (
   <header>
-    <h3 className="brand-color">Taylor's Tidy Trees</h3>
+    <a href="/" class="brand-color logo-text">Taylor's Tidy Trees</a>
     <Nav />
   </header>
 )
 
-export default ({ children, staffName }) => {
+export default ({ children, breadcrumbs }) => {
   return (
     <>
       <Helmet>
         <html lang="en" />
         <title>
-          Taylor's Tidy Trees - Who We Are{staffName ? ` - ${staffName}` : ""}
+          Taylor's Tidy Trees
+          {breadcrumbs ? ` - ${breadcrumbs.join(" - ")}` : ""}
         </title>
         <link
           href="https://gatsby-html-partial-assets.s3.eu-west-2.amazonaws.com/favicon.ico"

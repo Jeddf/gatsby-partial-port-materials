@@ -3,7 +3,8 @@ import Layout from "../components/Layout"
 import { Link } from "gatsby"
 
 export default () => (
-  <Layout>
+  <Layout breadcrumbs={["Who We Are"]}>
+    <h1>Who We Are</h1>
     <h2>These are our staff:</h2>
     <ul>
       <li>
