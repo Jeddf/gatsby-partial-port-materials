@@ -38,19 +38,19 @@ export default ({ children, breadcrumbs }) => {
           {breadcrumbs ? ` - ${breadcrumbs.join(" - ")}` : ""}
         </title>
         <link
-          href="https://gatsby-html-partial-assets.s3.eu-west-2.amazonaws.com/favicon.ico"
+          href="/assets/favicon.ico"
           rel="shortcut icon"
           type="image/x-icon"
         />
         <link
           rel="stylesheet"
           type="text/css"
-          href="https://gatsby-html-partial-assets.s3.eu-west-2.amazonaws.com/normalize.css"
+          href="/assets/normalize.css"
         />
         <link
           rel="stylesheet"
           type="text/css"
-          href="https://gatsby-html-partial-assets.s3.eu-west-2.amazonaws.com/style.css"
+          href="/assets/style.css"
         />
       </Helmet>
       <Header />

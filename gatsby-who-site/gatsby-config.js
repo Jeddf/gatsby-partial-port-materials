@@ -7,6 +7,4 @@
 module.exports = {
   plugins: [`gatsby-plugin-react-helmet`],
   pathPrefix: `/who`,
-  assetPrefix:
-    "https://gatsby-html-partial-assets.s3.eu-west-2.amazonaws.com/gatsby",
 }
